@@ -8,12 +8,20 @@ namespace ProducerConsumer
 {
     class AbstractBuffer
     {
-        private abstract void Put(int element);
-        private abstract int Take();
+        public void Put(int element)
+        {
+            
+        }
+
+        public int Take()
+        {
+            
+        }
+
 
         public Boolean IsEmpty()
         {
-            return.true;
+            return true;
         }
     }
 }

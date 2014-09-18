@@ -8,5 +8,22 @@ namespace ProducerConsumer
 {
     class IBuffer
     {
+        public int Count 
+        { get;  }
+
+        public bool IsEmpty()
+        {
+            return true;
+        }
+
+        public int Take()
+        {
+            
+        }
+
+        public void Put(int element)
+        {
+            
+        }
     }
 }

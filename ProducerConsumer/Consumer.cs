@@ -8,6 +8,7 @@ namespace ProducerConsumer
 {
     class Consumer
     {
-        
+        public void Run();
+
     }
 }

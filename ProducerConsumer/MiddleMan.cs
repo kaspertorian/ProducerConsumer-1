@@ -8,5 +8,6 @@ namespace ProducerConsumer
 {
     class MiddleMan
     {
+        public MiddleMan(IBuffer,IBuffer)
     }
 }
