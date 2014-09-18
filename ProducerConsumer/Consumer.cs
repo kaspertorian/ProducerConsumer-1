@@ -8,11 +8,15 @@ namespace ProducerConsumer
 {
     class Consumer
     {
-        public Consumer(IBuffer buffer)
+        public Consumer(BoundedBuffer buf)
         {
             
         }
-        public void Run();
+
+        public void Run()
+        {
+            
+        }
 
     }
 }

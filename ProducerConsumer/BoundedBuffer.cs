@@ -10,6 +10,17 @@ namespace ProducerConsumer
 {
     class BoundedBuffer
     {
+        private int _max;
+        public int Capacity;
+        public BoundedBuffer(int capacity)
+        {
+            this._max = capacity;
+
+            queue = new Queue<int>(capacity);
+
+        }
+      
+        private Queue<int> queue; 
         
         public void Put(int element)
         {
@@ -28,10 +39,11 @@ namespace ProducerConsumer
 
         public BoundedBuffer(int capacity)
         {
-            
+            queue = new Queue<int>(capacity);
+
+
         }
 
-        public class Queue<T> : IEnumerable<T>, ICollection, IEnumerable 
-        { }
+        
     }
 }

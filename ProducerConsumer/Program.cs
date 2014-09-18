@@ -10,11 +10,13 @@ namespace ProducerConsumer
     {
         static void Main(string[] args)
         {
-            BoundedBuffer buf = new BoundedBuffer();
-            Producer prod = new Producer(Buffer, 10);
-            Consumer cons = new Consumer(buf);
-            
-            Parallel.Invoke(prod.Run, cons.Run);
+
+            BoundedBuffer buf = new BoundedBuffer(4);
+
+            Producer prod = new Producer(buf, 10);
+            Consumer con = new Consumer(buf);
+
+            Parallel.Invoke(prod.Run, con.Run);
         }
     }
 }
