@@ -41,8 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractBuffer.cs" />
+    <Compile Include="BoundedBuffer.cs" />
+    <Compile Include="Consumer.cs" />
+    <Compile Include="Duplicator.cs" />
+    <Compile Include="IBuffer.cs" />
+    <Compile Include="MiddleMan.cs" />
+    <Compile Include="Producer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnBoundedBuffer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
