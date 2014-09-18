@@ -8,6 +8,10 @@ namespace ProducerConsumer
 {
     class Consumer
     {
+        public Consumer(IBuffer buffer)
+        {
+            
+        }
         public void Run();
 
     }

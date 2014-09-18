@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
@@ -25,6 +26,12 @@ namespace ProducerConsumer
          return true;
         }
 
-        
+        public BoundedBuffer(int capacity)
+        {
+            
+        }
+
+        public class Queue<T> : IEnumerable<T>, ICollection, IEnumerable 
+        { }
     }
 }

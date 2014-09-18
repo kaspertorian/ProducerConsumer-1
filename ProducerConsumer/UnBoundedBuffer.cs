@@ -8,5 +8,10 @@ namespace ProducerConsumer
 {
     class UnBoundedBuffer
     {
+        public int Take()
+        {
+            
+        }
+
     }
 }

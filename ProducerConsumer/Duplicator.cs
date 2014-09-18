@@ -8,5 +8,11 @@ namespace ProducerConsumer
 {
     class Duplicator
     {
+        public Duplicator(IBuffer incoming, IBuffer outgoing1, IBuffer outgoing2)
+        {
+            
+        }
+
+        public void Run();
     }
 }

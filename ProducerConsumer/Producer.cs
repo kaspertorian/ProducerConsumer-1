@@ -10,5 +10,7 @@ namespace ProducerConsumer
     {
         private static int LastElement = -1;
         private static int LastItem = -1;
+
+        public Producer(IBuffer buffer, int howmany);
     }
 }

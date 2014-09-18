@@ -8,6 +8,11 @@ namespace ProducerConsumer
 {
     class MiddleMan
     {
-        public MiddleMan(IBuffer,IBuffer)
+        public MiddleMan(IBuffer fromBuffer,IBuffer toBuffer)
+        {
+            
+        }
+
+        public void Run();
     }
 }
