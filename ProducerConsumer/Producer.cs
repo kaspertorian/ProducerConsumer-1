@@ -9,8 +9,10 @@ namespace ProducerConsumer
 {
     class Producer
     {
-        private BoundedBuffer _buffer;
         private int _max;
+        private BoundedBuffer _buffer;
+       
+
         public Producer(BoundedBuffer buf, int howmany)
         {
             this._buffer = buf;
@@ -23,15 +25,9 @@ namespace ProducerConsumer
             for (int i = 0; i < this._max; i++)
             {
                 this._buffer.Put(i);
-            }
+                    
+                }
         }
 
-
-
-        public static int LastElement = -1;
-        public static int LastItem = -1;
-
-       
-        
-    }
+   }
 }

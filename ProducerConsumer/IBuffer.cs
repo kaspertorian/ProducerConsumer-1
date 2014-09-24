@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProducerConsumer
-{
+namespace ProducerConsumer{}
+/*{
     class IBuffer
     {
         public int Count 
@@ -27,3 +27,4 @@ namespace ProducerConsumer
         }
     }
 }
+*/

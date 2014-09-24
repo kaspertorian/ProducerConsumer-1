@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ProducerConsumer
-{
+{/*
     class MiddleMan
     {
         public MiddleMan(IBuffer fromBuffer,IBuffer toBuffer)
@@ -14,5 +14,5 @@ namespace ProducerConsumer
         }
 
         public void Run();
-    }
+    }*/
 }

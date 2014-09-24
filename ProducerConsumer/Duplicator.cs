@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ProducerConsumer
-{
+{/*
     class Duplicator
     {
         public Duplicator(IBuffer incoming, IBuffer outgoing1, IBuffer outgoing2)
@@ -14,5 +14,5 @@ namespace ProducerConsumer
         }
 
         public void Run();
-    }
+    }*/
 }

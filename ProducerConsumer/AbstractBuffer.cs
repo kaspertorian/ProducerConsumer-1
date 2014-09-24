@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ProducerConsumer
-{
+{/*
     class AbstractBuffer
     {
         public void Put(int element)
@@ -23,5 +23,5 @@ namespace ProducerConsumer
         {
             return true;
         }
-    }
+    }*/
 }

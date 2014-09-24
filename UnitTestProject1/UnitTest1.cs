@@ -7,7 +7,7 @@ namespace UnitTestProject1
 {
     [TestClass]
     public class UnitTest1
-    {
+    {/*
         [TestMethod]
         public void TestMethod1()
         {
@@ -17,6 +17,6 @@ namespace UnitTestProject1
             Consumer con = new Consumer(buf);
 
             Parallel.Invoke(prod.Run, con.Run);
-        }
+        }*/
     }
 }
